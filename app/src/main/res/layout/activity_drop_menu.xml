@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.customview.views.MenuView
+        android:id="@+id/mv_1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/menu_background"
+        android:foreground="@drawable/menu_ripple_foreground"
+        app:distance="10dp"
+        app:iconSize="40dp"
+
+        app:itemBackground="@drawable/item_selected_background"
+        app:itemHeight="50dp"
+
+        app:itemPaddingEnd="20dp"
+        app:itemPaddingStart="20dp"
+        app:itemTextColor="@color/colorAccent"
+        app:itemTextSize="20sp"
+        app:windowBackgroud="@drawable/menu_background_close" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_enabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="enabled" />
+
+        <Button
+            android:id="@+id/btn_disabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="disabled" />
+    </LinearLayout>
+</RelativeLayout>

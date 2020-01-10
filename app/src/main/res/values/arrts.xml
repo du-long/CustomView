@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MenuView">
+
+
+        <attr name="iconSize" format="dimension" />
+
+        <!--字体大小-->
+        <attr name="textSize" format="dimension" />
+        <!--字体颜色-->
+        <attr name="textColor" format="color" />
+        <!--弹窗背景-->
+        <attr name="windowBackgroud" format="reference" />
+        <!--列表字体颜色-->
+        <attr name="itemTextColor" format="color" />
+        <!--列表字体大小-->
+        <attr name="itemTextSize" format="dimension" />
+        <!--列表条目高度-->
+        <attr name="itemHeight" format="dimension" />
+        <!--列表和view的距离-->
+        <attr name="distance" format="dimension" />
+
+        <attr name="itemPaddingStart" format="dimension" />
+
+        <attr name="itemPaddingEnd" format="dimension" />
+
+        <attr name="itemPaddingTop" format="dimension" />
+
+        <attr name="itemPaddingBottom" format="dimension" />
+
+        <attr name="itemBackground" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="IconView">
+
+        <attr name="index" format="integer" />
+    </declare-styleable>
+</resources>
