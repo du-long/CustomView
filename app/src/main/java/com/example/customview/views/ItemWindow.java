@@ -110,12 +110,9 @@ public class ItemWindow extends PopupWindow implements Animation.AnimationListen
         selectIndex = -1;
         for (CharSequence item : items) {
             Item itemView = itemFactory.createItemView();
-            if (itemView instanceof View) {
-                itemView.getTextView().setText(item);
-                mRootView.addView((View) itemView);
-                ((View) itemView).setOnClickListener(this);
-            } else throw new RuntimeException("Item 必须是 View 的子类");
-
+            itemView.getTextView().setText(item);
+            mRootView.addView((View) itemView);
+            ((View) itemView).setOnClickListener(this);
         }
     }
 
