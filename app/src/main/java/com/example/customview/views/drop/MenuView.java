@@ -1,4 +1,4 @@
-package com.example.customview.views;
+package com.example.customview.views.drop;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -27,10 +27,10 @@ public class MenuView extends LinearLayout implements ItemFactory, ItemWindow.On
     private AttributeSet attrs;
     private ItemWindow mItemWindow;
 
-    private int mTextColor = 0xFFFFFFFF;
+    private int mTextColor = 0XFFFFFFFF;
     private float mTextSize = 20;
     private float mItemTextSize = 20;
-    private int mItemTextolor = 0xFFFFFFFF;
+    private int mItemTextolor = 0XFFFFFFFF;
     private int mItemHeight = 100;
     private int mItemPaddingStart;
     private int mItemPaddingEnd;

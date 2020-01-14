@@ -1,4 +1,4 @@
-package com.example.customview.views;
+package com.example.customview.views.drop;
 
 import android.content.Context;
 import android.graphics.Canvas;

@@ -1,4 +1,4 @@
-package com.example.customview.views;
+package com.example.customview;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +7,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.customview.R;
+import com.example.customview.views.drop.MenuView;
 
 public class DropMenuActivity extends AppCompatActivity implements View.OnClickListener {
 
